@@ -1,0 +1,19 @@
+---
+layout: page
+title: 公告
+---
+<div class="row my-5">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <h1 class="mb-3">公告</h1>
+        <ul>
+            {% for post in site.posts %}
+                {% if post.categories contains 'announcements' %}
+                    <li>
+                        <h2><a href="{{ post.url }}">{{ post.title }}</a> <small class="text-muted">{{ post.date | date: '%Y 年 %-m 月 %-d 日' }}</small></h2>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+</div>

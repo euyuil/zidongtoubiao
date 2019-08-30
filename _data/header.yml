@@ -1,0 +1,20 @@
+internal:
+  - name: 首页
+    icon: fa-home
+    link: /
+  - name: 公告
+    icon: fa-bullhorn
+    link: /announcements/
+  - name: 代码
+    icon: fa-code
+    link: /code/
+  - name: 数据
+    icon: fa-database
+    link: /data/
+  - name: 关于
+    icon: fa-question-circle
+    link: /about/
+external:
+  - name: 在 GitHub 上查看
+    icon: fa-external-link-alt
+    link: https://github.com/euyuil/zidongtoubiao
